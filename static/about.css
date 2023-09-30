@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #222;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    background-color: #444;
+}
+
+.center-content{
+    display: flex;
+    flex-direction: column; /* Расположить блоки вертикально */
+    align-items: center; /* Выравнивание по центру по вертикали */
+    justify-content: center; /* Выравнивание по центру по горизонтали */
+    /*min-height: 100vh; /* Минимальная высота 100% окна просмотра */
+    flex-grow: 1;
+    /*border: 2px solid blue;*/
+}
+
+.about-txt{
+    font-size: 26px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 10px;
+    text-align: center; /* Выравнивание текста по центру */
+    /*border: 2px solid white;*/
+}
+.center-text {
+    margin: 0; /* Убрать верхний margin для второго блока */
+    align-self: center; /* Выравнивание второго блока по центру */
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center; /* Выравнивание текста по центру */
+    /*border: 2px solid white;*/
+}
+
+
+
