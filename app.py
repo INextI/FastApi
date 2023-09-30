@@ -37,6 +37,6 @@ async def get_random_number(request: Request):
 @app.get("/button")
 async def get_random_number():
     global rand_num
-    rand_num = random.randint(0, 100)  # Генерируем случайное число от 1 до 100
+    rand_num = random.randint(0, 101)  # Генерируем случайное число от 1 до 100
     return RedirectResponse(url="/", status_code=303)
 
