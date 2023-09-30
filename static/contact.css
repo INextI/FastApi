@@ -1,3 +1,4 @@
+@import url("nullstyle.css");
 body {
     margin: 0;
     padding: 0;
@@ -38,7 +39,7 @@ body {
     flex-grow: 1;
 }
 .contact-txt{
-    font-size: 26px;
+    font-size: 36px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -55,7 +56,7 @@ body {
 
 .contact{
     padding-top: 40px;
-    font-size: 26px;
+    font-size: 36px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     padding: 20px;

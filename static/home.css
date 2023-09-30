@@ -1,3 +1,5 @@
+@import url("button.css");
+@import url("nullstyle.css");
 body {
     margin: 0;
     padding: 0;
@@ -29,18 +31,39 @@ body {
     background-color: #444;
 }
 
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #333;
+    color: #fff;
+}
 .center-text {
     font-size: 64px;
     font-weight: bold;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    align-items: center;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /*border: 1px solid #fff;*//
 }
 
+.container-2{
+}
+.button-area {
+    margin-top: 15vh;
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+
+.btn-txt {
+    margin: 30px;
+}
 
 

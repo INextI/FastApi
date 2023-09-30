@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333; /* Задайте цвет фона, который вам нравится */
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 20px; /* Отступ между блоками center-text и button-area */
+}
+
+.center-text {
+  font-size: 64px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button-area {
+  font-size: 26px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: 1px solid #fff;
+}
+
+.btn-txt {
+  margin: 10px 0; /* Отступы сверху и снизу для текста в блоке button-area */
+}
+
